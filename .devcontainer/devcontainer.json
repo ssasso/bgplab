@@ -7,9 +7,6 @@
     },
     "mounts": [
         "source=/lib/modules,target=/lib/modules,type=bind,readonly"
-    ],
-    "runArgs": [
-        "--sysctl", "net.ipv6.conf.all.disable_ipv6=0"
     ]
 }
 
